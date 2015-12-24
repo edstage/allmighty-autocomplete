@@ -248,7 +248,7 @@ app.directive('autocomplete', function() {
       });
     },
     templateUrl: function(elem, attrs) {
-       return attrs.templateUrl || 'views/ac_template.html';
+       return attrs.templateUrl || 'script/ac_template.html';
     }
   };
 });
